@@ -175,7 +175,7 @@ function sendAlert() {
     if (alerts > 0) return;
     
     // Play alert sound
-    var audio = new Audio('https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3');
+    var audio = new Audio('https://sampleswap.org/samples-ghost/INSTRUMENTS%20(SINGLE%20SAMPLES)/Guitars/817[kb]strummy-g7-guitar.wav.mp3');
     audio.play();
     // TODO: Find a good way to notify the user
     alert('Found available slots!')
