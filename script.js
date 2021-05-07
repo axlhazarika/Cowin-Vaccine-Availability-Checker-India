@@ -104,7 +104,7 @@ function get(callback) {
     var req = new XMLHttpRequest();
     const district_id = district.value;
     const date = getDate();
-    const url = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=${district_id}&date=${date}`;
+    const url = `https://cdn-api.co-vin.in/api/v2/appointment/sessions/calendarByDistrict?district_id=${district_id}&date=${date}`;
     req.open('GET', url, true);
     req.responseType = 'json';
     req.onload = function() {
