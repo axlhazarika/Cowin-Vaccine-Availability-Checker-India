@@ -7,3 +7,5 @@ If you find an available slot, immediately book the slots from the official port
 ## Features
 - Saving your state and district, removing unavailable slots, alert you with a GUITAR TONE on finding an available slot, the rest is same as the original <a href="https://selfregistration.cowin.gov.in/" target="_blank">Co-WIN</a> app.
 
+Thanks to various Git contributors, from whom the final repo is derived. Special Thanks to neel py, arogya, etc.
+
